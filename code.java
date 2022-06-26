@@ -9,6 +9,6 @@ public class CurrentDateTime {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yy-MM-dd HH:mm:ss.SS");
         String formatted = current.format(formatter);
 
-        System.out.println("Current Date and Time is: " + formatted);
+        System.out.println("Current Date is: " + formatted);
     }
 }
